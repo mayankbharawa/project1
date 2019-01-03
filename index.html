@@ -1,0 +1,65 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+  width:400px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.form
+{
+position: fixed;
+top: 65%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+
+</style>
+</head>
+<body >
+<table >
+<td>
+
+<div class="vertical-menu">
+  <a href="index.html" class="active">Home</a>
+  <a href="#">Basic operations in linux</a>
+  <a href="#">Memory management in linux</a>
+  <a href="#">Software Management</a>
+  <a href="#">Linux Superuser</a>
+</div></td><td><img src= "rll.jpg"></td></table><hr>
+<div align="center">
+
+<h1 style="color:red;"> enter your input</h1>
+<form method=POST action ="/cgi-bin/add.cgi">
+<p style="color:red"> enter any command :</p><input style="color:green;" type=text name=c >
+<input style="color:red;background-color:lightgreen;" type=submit value= send > 
+</form>
+<form method=Post action="/cgi-bin/terminal.cgi">
+<p style="color:red"><a href ="https://192.168.109.162:4200"> click here to access terminal</a></p> 
+</div>
+</form>
+ <footer>
+  <p>Copyright by:</p>
+  <p>Contact information: <a href="mailto:mayankbharawa@gmail.com">
+  mayankbharawa@gmail.com</a>.</p>
+</footer> 
+</body>
+</html>
